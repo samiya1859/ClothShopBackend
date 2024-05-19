@@ -98,9 +98,13 @@ CORS_ALLOW_ALL_ORIGINS=True
 
 CSRF_TRUSTED_ORIGINS = [
 "http://127.0.0.1:5500/",
-"http://127.0.0.1:8000/"
+"http://127.0.0.1:8000/",
+"https://clothshopbackend-2.onrender.com/"
 # add your trusted origin
 ]
+
+FRONTEND_LOGIN_URL = "https://6649f1c25b0c79b691326722--willowy-beijinho-b64a3b.netlify.app/login"
+FRONTEND_REGISTER_URL = "https://6649f1c25b0c79b691326722--willowy-beijinho-b64a3b.netlify.app/register"
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
