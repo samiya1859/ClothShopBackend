@@ -103,9 +103,9 @@ CSRF_TRUSTED_ORIGINS = [
 # add your trusted origin
 ]
 
-FRONTEND_LOGIN_URL = "https://6649fefbd8a3d0b8fd6cbeac--rad-elf-38b2fd.netlify.app/login"
-FRONTEND_REGISTER_URL = "https://6649fefbd8a3d0b8fd6cbeac--rad-elf-38b2fd.netlify.app/register"
-
+FRONTEND_LOGIN_URL = "https://6687c6dc3756a82f60160ef1--superb-fox-de5afa.netlify.app/login"
+FRONTEND_REGISTER_URL = "https://6687c6dc3756a82f60160ef1--superb-fox-de5afa.netlify.app/register"
+FRONTEND_HOME_URL = "https://6687c6dc3756a82f60160ef1--superb-fox-de5afa.netlify.app/"
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 

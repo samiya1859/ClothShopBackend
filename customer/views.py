@@ -90,4 +90,5 @@ class UserLogoutView(APIView):
     def get(self,request):
         request.user.auth_token.delete()
         logout(request)
-        return HttpResponseRedirect(settings.FRONTEND_LOGIN_URL)
+        return HttpResponseRedirect(settings.FRONTEND_HOME_URL) 
+        
